@@ -13,3 +13,25 @@ O GitMaster é responsável por garantir que o uso do Git e do GitHub no projeto
 Seguir essas práticas é fundamental para que o trabalho em equipe seja colaborativo, organizado e eficiente.
 
 ---
+
+# Sistema de Autenticação com Hash de Senhas
+
+## 1. Descrição do Problema a Ser Resolvido
+
+Este projeto tem como objetivo desenvolver um sistema de autenticação simples e seguro, onde as senhas dos usuários são armazenadas utilizando hash com salt para evitar o armazenamento de senhas em texto puro. Isso ajuda a proteger as informações dos usuários contra acessos não autorizados.
+
+---
+
+## 2. Instruções para Compilar, Executar e Utilizar o Programa
+
+### Requisitos
+- Compilador C (GCC, Clang ou similar)
+- Sistema operacional com terminal/linha de comando
+
+### Passos para compilar
+
+No terminal, na pasta do projeto, execute:
+
+```bash
+gcc -o sistema_autenticacao main.c
+

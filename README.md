@@ -34,4 +34,54 @@ No terminal, na pasta do projeto, execute:
 
 ```bash
 gcc -o sistema_autenticacao main.c
+```
+
+### Passos para executar
+
+Execute o programa compilado:
+
+```bash
+./sistema_autenticacao
+```
+
+### Uso
+
+O programa oferece um menu com as opções:
+
+1. Cadastro — para criar um novo usuário com senha protegida.  
+2. Login — para autenticar usuários cadastrados.  
+3. Sair — para encerrar o programa.
+
+---
+
+## 3. Problemas Encontrados Durante o Desenvolvimento e Como Foram Resolvidos
+
+- **Armazenamento seguro das senhas**: implementamos hash com salt para evitar senhas em texto puro.  
+- **Prevenção de usuários duplicados**: verificamos no arquivo se o usuário já existia antes de cadastrar.  
+- **Tratamento de entradas inválidas**: adicionamos validações e limpeza do buffer para evitar erros no menu.  
+- **Conflitos no controle de versão**: utilizamos branches e merges com comunicação clara para evitar perda de código.
+
+---
+
+## 4. Responsabilidades do GitMaster no Projeto
+
+O GitMaster desempenha papel fundamental para garantir que o projeto seja desenvolvido de forma colaborativa, organizada e eficiente. Para isso, ele deve:
+
+- Criar branches para novas funcionalidades ou correções de bugs, permitindo que o trabalho seja feito de forma isolada e segura, sem impactar o código principal.  
+- Criar tags para marcar versões importantes do projeto, facilitando o acompanhamento do progresso e a identificação de versões estáveis ou críticas.  
+- Zelar pela integridade do repositório, garantindo que o código esteja sempre em um estado funcional e que as alterações sejam documentadas de forma adequada.  
+- Padronizar o uso do Git e do GitHub entre os integrantes do grupo, definindo boas práticas para commits, merges e organização do repositório.  
+- Criar commits claros e descritivos, explicando detalhadamente as alterações realizadas no código.  
+- Resolver conflitos de merge quando necessário, assegurando que o código esteja sempre atualizado e funcionando corretamente.
+
+Seguindo essas práticas, o GitMaster contribui para o sucesso do projeto e para o bom trabalho em equipe.
+
+---
+
+## 5. Contato e Colaboradores
+
+- Nome do GitMaster: José Vinícius Silvestre Borges
+- Outros integrantes: Kauan Alves
+- Email para contato: viniciussborges.sb@gmail.com
+
 
